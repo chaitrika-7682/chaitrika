@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sai Sri Chaitrika Darisi, Computer Science and Engineering student at Aditya University, with skills in C programming and an interest in puzzle solving.">
+  <title>Sai Sri Chaitrika Darisi | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="galaxy.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#main" aria-label="Sai Sri Chaitrika Darisi, home">SSCD<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#coding">Coding Journey</a>
+      <a href="#project-ideas">Project Ideas</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="hero" aria-labelledby="name">
+      <div>
+        <p class="label">Personal portfolio</p>
+        <h1 id="name"><span>Sai Sri</span> Chaitrika Darisi</h1>
+        <p class="hero-summary">Computer Science and Engineering student at Aditya University</p>
+        <blockquote class="portfolio-quote">
+          <p>“Curiosity is where every journey begins.”</p>
+        </blockquote>
+        <a class="button" href="#coding">My coding journey <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="galaxy-art">
+        <div class="monogram" aria-hidden="true">
+          <canvas id="galaxy"></canvas>
+          <span>Coder</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <div class="section-body">
+        <p class="section-intro">I’m Sai Sri Chaitrika Darisi, a Computer Science and Engineering student at Aditya University. I’ve learned C programming, and I enjoy solving puzzles like the 3×3 Rubik’s Cube.</p>
+        <p class="section-label">Education</p>
+        <h3>Bachelor of Technology</h3>
+        <p>Computer Science and Engineering · Aditya University</p>
+        <dl class="education-results">
+          <div><dt>Class 10</dt><dd>98.1%</dd></div>
+          <div><dt>Intermediate</dt><dd>98.2%</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="coding" class="section" aria-labelledby="coding-heading">
+      <h2 id="coding-heading">Coding Journey</h2>
+      <div class="section-body">
+        <p class="section-label">Programming language</p>
+        <h3>C programming</h3>
+        <p>Learning C gave me a foundation for turning a problem into steps and expressing those steps in code.</p>
+        <blockquote class="portfolio-quote">
+          <p>“Every bug I understand teaches me something new.”</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="project-ideas" class="section" aria-labelledby="project-ideas-heading">
+      <h2 id="project-ideas-heading">Project Ideas</h2>
+      <div class="section-body">
+        <p>Ideas for putting C into practice. Open any idea to see how to start and what you could add later.</p>
+        <div class="idea-list">
+          <details>
+            <summary>Rubik’s Cube Scramble Generator</summary>
+            <p>Start by generating a random sequence of 3×3 cube moves using standard notation like R, U′, and F2. Avoid consecutive moves on the same face.</p>
+            <p><strong>Try next:</strong> Add a solve timer and save your best times.</p>
+          </details>
+          <details>
+            <summary>Student Marks Tracker</summary>
+            <p>Enter marks and maximum scores for each subject, then calculate the overall percentage and identify the highest-scoring subject.</p>
+            <p><strong>Try next:</strong> Save records to a CSV file and load them again.</p>
+          </details>
+          <details>
+            <summary>Command-Line Quiz Game</summary>
+            <p>Store multiple-choice questions in structs, check each answer, and show the final score.</p>
+            <p><strong>Try next:</strong> Shuffle the questions and show a review of missed answers.</p>
+          </details>
+          <details>
+            <summary>Tic-Tac-Toe</summary>
+            <p>Use a 3×3 array for the board, check each move, and detect wins or draws in a two-player game.</p>
+            <p><strong>Try next:</strong> Add a computer opponent that blocks winning moves.</p>
+          </details>
+          <details>
+            <summary>Personal Expense Tracker</summary>
+            <p>Record an amount, date, and category for each expense. Show the total spent by category.</p>
+            <p><strong>Try next:</strong> Save expenses to a file and add monthly summaries.</p>
+          </details>
+          <details>
+            <summary>Maze Solver</summary>
+            <p>Read a maze from a text file and use breadth-first search to find a shortest path from the start to the exit.</p>
+            <p><strong>Try next:</strong> Print the maze with the path marked and report the number of steps.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests" class="section" aria-labelledby="interests-heading">
+      <h2 id="interests-heading">Interests</h2>
+      <div class="section-body puzzle-card">
+        <div>
+          <h3>Puzzle solving</h3>
+          <p>I enjoy solving the 3×3 Rubik’s Cube.</p>
+          <p class="puzzle-note">What I like about the cube is how a scrambled puzzle becomes manageable when you spot a pattern and work through it one move at a time.</p>
+        </div>
+        <div class="cube-scene" role="img" aria-label="An angled 3D view of a scrambled 3 by 3 Rubik’s Cube">
+          <div class="cube-doodles" aria-hidden="true">
+            <span class="cube-sparkle">✧</span>
+            <span class="cube-star">✦</span>
+            <span class="cube-planet"></span>
+          </div>
+          <div class="cube" aria-hidden="true">
+            <div class="cube-face cube-top">
+              <i class="orange"></i><i class="green"></i><i class="white"></i>
+              <i class="blue"></i><i class="yellow"></i><i class="orange"></i>
+              <i class="yellow"></i><i class="red"></i><i class="blue"></i>
+            </div>
+            <div class="cube-face cube-front">
+              <i class="red"></i><i class="yellow"></i><i class="blue"></i>
+              <i class="white"></i><i class="green"></i><i class="green"></i>
+              <i class="orange"></i><i class="blue"></i><i class="red"></i>
+            </div>
+            <div class="cube-face cube-side">
+              <i class="orange"></i><i class="white"></i><i class="green"></i>
+              <i class="red"></i><i class="red"></i><i class="blue"></i>
+              <i class="white"></i><i class="yellow"></i><i class="orange"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <div class="section-body">
+        <a class="email" href="mailto:chaitrikadarisi@gmail.com">chaitrikadarisi@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <span>Sai Sri Chaitrika Darisi</span>
+    <a href="#main">Back to top ↑</a>
+  </footer>
+</body>
+</html>
